@@ -9,7 +9,7 @@ body {
 /* Style the header */
 .header {
   background-color: #98181A;
-  padding-top: 50px;
+  padding-top: 5px;
   color: #ffffff;
   font-family:Helvetica;
 }
@@ -141,7 +141,7 @@ img {vertical-align: middle;}
 
 
 .introduction{
-  width: 692.5px;
+  width: 519px;
   height: 449px;
   background-color: white;
   color: black;
@@ -150,23 +150,49 @@ img {vertical-align: middle;}
   padding-left: 10px;
 }
 
-.content1{
+.content_mission_vision{
   clear: both;
   max-height: 1000px;
   width: 100%;
   /*background-color: rgb(0,0,0);*/
-  border-style: solid;
-  border-color: red;
+  /*border-style: solid;
+  border-color: red;*/
+}
+
+.content_more{
+  clear: both;
+  max-height: 1000px;
+  width: 1000px;
+  /*background-color: rgb(0,0,0);*/
+  /*border-style: solid;
+  border-color: red;*/
+}
+
+
+.content_footer{
+  clear: both;
+  max-height: 1000px;
+  width: 100%;
+  background-color:#ff531a;
+ /* border-style: solid;
+  border-color: red;*/
 }
 
 .footer{
   width: 100%;
   padding: 10px;
-  background-color: rgb(200,200,200);
+  background-color: #98181A;
   bottom: 0;
   text-align: center;
+  color: white;
 }
 #p1:first-letter {
   font-size: 200%;
   color: black;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
