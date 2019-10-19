@@ -109,7 +109,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 75%;
   position: relative;
   margin: auto;
   float: left;
@@ -141,7 +141,7 @@ img {vertical-align: middle;}
 
 
 .introduction{
-  width: 519px;
+  width: 25%;
   height: 449px;
   background-color: white;
   color: black;
@@ -155,8 +155,8 @@ img {vertical-align: middle;}
   max-height: 1000px;
   width: 100%;
   /*background-color: rgb(0,0,0);*/
-  border-style: solid;
-  border-color: red;
+  /*border-style: solid;
+  border-color: red;*/
 }
 
 .content_more{
@@ -174,8 +174,8 @@ img {vertical-align: middle;}
   max-height: 1000px;
   width: 100%;
   background-color:#ff531a;
-  border-style: solid;
-  border-color: red;
+  /*border-style: solid;
+  border-color: red;*/
 }
 
 .footer{
