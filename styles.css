@@ -155,8 +155,8 @@ img {vertical-align: middle;}
   max-height: 1000px;
   width: 100%;
   /*background-color: rgb(0,0,0);*/
-  border-style: solid;
-  border-color: red;
+  /*border-style: solid;
+  border-color: red;*/
 }
 
 .content_more{
@@ -164,8 +164,8 @@ img {vertical-align: middle;}
   max-height: 1000px;
   width: 1000px;
   /*background-color: rgb(0,0,0);*/
-  border-style: solid;
-  border-color: red;
+  /*border-style: solid;
+  border-color: red;*/
 }
 
 
@@ -174,8 +174,8 @@ img {vertical-align: middle;}
   max-height: 1000px;
   width: 100%;
   background-color:#ff531a;
-  border-style: solid;
-  border-color: red;
+ /* border-style: solid;
+  border-color: red;*/
 }
 
 .footer{
