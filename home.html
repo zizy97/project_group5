@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CINTA UOR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+
+<div class="header">
+ 	<table>
+  <tr>
+	  <td><a href="http://www.ruh.ac.lk/ruh/" target="_blank">  <img src="logo.png" alt="Italian Trulli" width="501" height="100" style="padding: 0px;"></a></td>
+	  <td><h1 style="text-align: center; font-size: 50px;">International Affairs Branch</h1></td>
+		</tr>
+		</table>
+</div>
+
+<ul>
+  <li><a href="#">Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Staff Members</a>
+    <div class="dropdown-content">
+      <a href="#">Permanent Staff</a>
+      <a href="#">Visiting Staff</a>
+      <a href="#">Supporting Staff</a>
+  </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Gallery</a>
+    
+  </li>  
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Courses</a>
+    <div class="dropdown-content">
+      <a href="#">Undergraduate Programmes</a>
+    <a href="#">Postgraduate Programmes</a>
+    <a href="#">Certificated Programmes</a>
+  </div></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Students</a>
+    <div class="dropdown-content">
+      <a href="#" >Events</a>
+      <a href="#">News</a>
+  </div>
+	</li>
+  <li><a href="#">Downloads</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">About Us</a>
+   </li>
+  <li class="contactus"><a href="#" >Contact Us</a></li>
+  
+</ul>
+
+<div class="slideshow-container">
+
+      <div class="mySlides fade"> <img src="index1.jpeg" style="width:100%"> </div>
+
+      <div class="mySlides fade"> <img src="index2.jpeg" style="width:100%"> </div>
+
+      <div class="mySlides fade"> <img src="index3.jpeg" style="width:100%"> </div>
+
+      </div>
+
+
+<div class="introduction">
+  
+  <h2>Introduction</h2>
+  <p style="text-align:justify;" id="p1">The International Affairs Branch was established in 2010 as per the concept of the UGC to transform Universities as world class Universities in their chosen fields. International Affairs Branch is exclusively dedicated to enhance global relations, to promote multidisciplinary collaborative research programs, and to facilitate students and staff members by providing resources, platforms and scholarly exchanges.
+
+The International Affairs Branch has been functioning as a streamlining unit for all international exchanges and research of University of Ruhuna, and has initiated and renewed links and agreements of UoR with several international institutions. The International Affairs Office, since its establishment, has worked towards expanding such relations and international partner institutions. The Office continues at promoting the research culture and global engagement of University of Ruhuna while enhancing its global visibility.</p>
+
+</div>
+
+<div class="content1">
+ <img src="mission.png" style="width:100px;height: 100px;">
+</div>
+
+
+<div class="footer">This Web Site is maintained by the csc113&#945</br>
+    Last updated <script type="text/javascript">
+      var lm=document.lastModified;
+      document.write(lm);
+    </script></div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  
+  setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+</body>
+</html>
