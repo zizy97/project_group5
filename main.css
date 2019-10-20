@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  font-family: "Segoe UI",Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #212529;
+  text-align: left;
+  background-color: #eeeeee;
+  flex-direction: column;
+  height: 100%;
+}
+header h1{
+  text-align:center;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.5rem;
+}
+.nav {
+  display: flex;
+  position: relative;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #333;
+  justify-content: space-between;
+  padding: 0.25em 0.5em;
+  align-items: center;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: rgba(165, 154, 154, 0.932);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: border-bottom 1s ease-in;
+  font-size: 1.15em;
+}
+
+li a:hover,a:focus {
+  border-bottom: spx solid #e4dede;
+}
+#main{
+	float: left;
+	padding : 1%; 
+        color: black; 
+        background-color: #e6e6f0c7; 
+        width: 60%;
+        height: auto;
+}
+h2{
+  display: block;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: #6c757d;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+p {
+  text-align: justify;
+  font-family: 'source sans pro','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+	float: right;
+	padding :1%; 
+        color: black; 
+        background-color: #a2beb6; 
+        width: 39%; 
+        height: 700px;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+
+
