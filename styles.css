@@ -186,7 +186,7 @@ img {vertical-align: middle;}
   bottom: 0;
   text-align: center;
   color: white;
-  font-size:xx-small;
+  font-size:small;
 }
 
 footer{
@@ -228,12 +228,6 @@ margin: 0;
 .foo-links a:hover,a:focus {
 border-bottom: 2px solid #e4dede;
 }
-footer h3{footer hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 2px solid rgba(0, 0, 0, 0.644);
-}
 footer p{
 text-align: center;
 }
@@ -266,16 +260,6 @@ text-align: inherit;
 color: #58595a;
 font-size: 1.25em;
 }
-
-
-
-text-align: inherit;
-color: #58595a;
-font-size: 1.25em;
-}
-
-
-
 #p1:first-letter {
   font-size: 200%;
   color: black;
@@ -293,4 +277,18 @@ font-size: 1.25em;
   text-align: justify; 
   padding-right: 50px; 
   padding-left: 50px;
+}
+#main{
+	float: left;
+	padding : 1%; 
+        color: black; 
+        background-color: #e6e6f0c7; 
+        width: 60%;
+        height: auto;
+}
+#myIframe
+{
+    position: relative;
+    height: 100%;
+    width: 100%; 
 }
