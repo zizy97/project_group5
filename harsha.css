@@ -1,0 +1,172 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(255,255,255);
+  background-size:auto;
+}
+/*heder section*/
+ 
+ .table1{
+	 width:50px;
+	 /*border-style: solid;
+    border-color: rgba(51, 153, 255,1.0);*/
+	padding-left:10px;
+ }
+
+ .table2{
+	 width:50px;
+	/*border-style: solid;
+    border-color: rgba(51, 153, 255,1.0);*/
+	padding-left:120px;
+ }
+ 
+.topnav{
+	/*position:fixed;*/
+	
+	background-color: rgba(255,255,255,1.0);
+	
+}
+#h1{
+	/*background-color: rgb(0,0,0);*/
+	text-align:center;
+	color: rgb(51, 153, 255);
+	padding: 0px;
+	font-size:60px;
+	width:1000px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*border-style: solid;
+    border-color: rgba(51, 153, 255,1.0);*/
+    /*background-color: rgba(250,65,4,0.10);*/
+	
+}
+
+.contactus{
+	float:right;
+}
+
+li {
+    float: left;
+	
+	
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+	/*border: 1px solid white;*/
+    color:rgba(0,0,0,1.00);
+	/*background-color:rgba(255,255,255,0.1);*/
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+	font-style:bold;
+	-webkit-transition-duration: 0.7s;
+    transition-duration: 5.s;
+	opacity: 25;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(51, 153, 255);
+	
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,255,0.1);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:rgba(51, 153, 255,0.3)
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.content1{
+	width:70%;
+	height:640px;
+	background-color:white;
+	float:left;
+	border-style:solid;
+	border-color:rgb(0,0,0);
+	margin:0;
+  }
+
+
+
+.content2{
+  width:30%;
+  height:640px;
+  background-color:white;
+  float:left;
+  border-style:solid;
+  border-color:rgb(0,0,0);
+  margin:0;
+}
+
+/*.content3{
+  width:20%;
+  height:540px;
+  background-color:white;
+  float:right;
+  border-style:solid;
+  border-color:rgb(0,0,0);
+  margin:0;*/
+}
+
+#p1{
+	font-size:30px;
+}
+.header h1{
+	font-size:50px;
+}
+#a1{
+	text-align:center;
+	font-size:30px;
+}
+
+.tbl2{
+	border-style:solid;
+	border-color:red;
+	height:100px;
+}
+
+
+
+.footer {
+  clear:both;
+  background-color :rgba(51, 153, 255,0.3);
+  padding:20px;
+  text-align:center;
+ /*position :fixed;*/
+  bottom:0px;
+  color: rgba(0,0,0,1.00);
+  float:bottom;
+}
